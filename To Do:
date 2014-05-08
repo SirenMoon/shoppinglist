@@ -1,0 +1,23 @@
+To Do:
+
+- Create task styling. <done>
+- Submit button
+- remove text from input
+- add text to task 
+- remove task with enter
+
+Helpful Links:
+
+http://www.buildfortheweb.com/2010/11/25/create-a-to-do-list-with-jquery/
+
+http://web.koesbong.com/2011/01/24/sortable-and-editable-to-do-list-using-html5s-localstorage/
+
+http://www.paulund.co.uk/create-sticky-notes-to-do-list-in-css-and-jquery
+
+http://www.buildfortheweb.com/2010/11/25/create-a-to-do-list-with-jquery/
+
+http://codepen.io/meidan/forked/
+
+Tips:
+
+At the very least—you’ll probably need to use the .val() and .prepend() or .append() methods.

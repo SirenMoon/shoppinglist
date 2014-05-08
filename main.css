@@ -1,0 +1,60 @@
+h1 {
+	font-family: 'Maiden Orange', cursive;
+	font-size:4em;
+	text-align:center;
+	text-shadow:1px 1px 1px #000;
+	color:#404040;
+	margin-bottom:40px;
+}
+
+body{
+	background-color:#F6F6F6;
+	color:#2B2B2B;
+	font-size:1.2em;
+}
+
+img {
+ 	display: block;
+ 	margin:auto auto 40px auto;
+}
+
+input,.new {
+	display:block;
+	margin:10px auto 40px auto;
+	height:2em;
+	width:20em;
+	box-shadow: 0 6px 4px -4px #404040;
+	border: 1px solid  #404040;
+	border-radius: 10px;
+	font-size:1.25em;
+	/*remove unwated default outline*/
+	outline:none;
+}
+
+.new {
+	 visibility: hidden;
+}
+
+input:hover , .new:hover{
+	transition:0.2s easy-in-out;
+	border:1px solid #DE1B1B;
+}
+button{
+	background:#2B2B2B;
+	border-radius:5px;
+	color:#F6F6F6;
+	cursor: pointer;
+	padding:1em;
+	width:8em;
+	/*align*/
+	display:block;
+	position:relative;
+	margin:auto;
+	/*Remove unwanted default settings*/
+	border: 0;
+}
+
+button:hover {
+  transition: 0.2s ease-in-out;
+  background:#DE1B1B ;
+}
