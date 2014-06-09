@@ -18,7 +18,7 @@ img {
  	margin:auto auto 40px auto;
 }
 
-input,.new {
+#form{
 	display:block;
 	margin:10px auto 40px auto;
 	height:2em;
@@ -31,15 +31,17 @@ input,.new {
 	outline:none;
 }
 
-.new {
-	 visibility: hidden;
+#form:hover{
+	transition:0.2s easy-in-out;
+	border:1px solid  #a90329;
 }
 
-input:hover , .new:hover{
-	transition:0.2s easy-in-out;
-	border:1px solid #DE1B1B;
-}
-button{
+
+#button{
+
+	width:8em;
+	background:#2B2B2B;
+	color:#F6F6F6;
 	background:#2B2B2B;
 	border-radius:5px;
 	color:#F6F6F6;
@@ -54,7 +56,48 @@ button{
 	border: 0;
 }
 
-button:hover {
+#button:hover {
   transition: 0.2s ease-in-out;
-  background:#DE1B1B ;
+  color:white;
+background-image: linear-gradient(to bottom, #00D936 0%, #10A341 100%);
 }
+
+
+	.list {
+  margin-left: 100px;
+  overflow: hidden;
+  	font-size:1.25em;
+  	margin:auto;
+}
+
+
+.item{
+	overflow:hidden;
+	font-size:1.15em;
+	border:2px solid gray;
+	box-shadow: 0 6px 4px -4px #404040;
+	width:16em;
+	height:1.5em;
+	text-align:center;
+	padding:5px;
+	margin-bottom:10px;
+	outline:none;
+	border-radius: 10px;
+	position:relative;
+	margin:auto;
+	margin-top:10px;
+}
+
+.item:first-child{
+	margin-top:30px;
+}
+
+.item:hover{
+	  transition: 0.2s ease-in-out;
+background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+color:white;
+}
+h2,p{
+	text-align:center;
+}
+
